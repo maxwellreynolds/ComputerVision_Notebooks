@@ -1,0 +1,5 @@
+-The ratio for texture_repr_mean was smallest
+-Changing k to .04 and .06 did not significantly change this ratio
+-Extracting more keypoints did help performance with the bag of words approach (I changed percentile rather than raw number)
+-texture_repr_mean remained the best descriptor, as it had the lowest ratio with to between class distance
+-I figured texture would be the best classifier because the animals had clearly different textures. However, I was not sure whether the concatenated or mean texture would perform best.
